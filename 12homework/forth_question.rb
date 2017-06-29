@@ -4,9 +4,9 @@ def dice(a)
 end
 
 def dice10
-  1.upto(10) do |i|
-  sum = 0
-  sum += dice(6)
-  i += 1
-
+  ret = 0
+  10.times do
+    ret += dice
+  end
+  ret
 end

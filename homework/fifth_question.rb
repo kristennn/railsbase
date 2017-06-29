@@ -1,3 +1,0 @@
-def prime?(num)
-  
-end

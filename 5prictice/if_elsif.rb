@@ -1,5 +1,5 @@
 a = 10
 b = 20
-unless a > b
-  puts "a不大于b"
+unless a === b
+  puts "a不等于b"
 end

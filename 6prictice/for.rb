@@ -4,3 +4,10 @@ for i in 2..5
 end
 
 p sum
+
+a = 0
+(2..5).each do |i|
+  a = a + i
+end
+
+p a

@@ -7,3 +7,4 @@ result = Array.new
 end
 
 p result
+ 

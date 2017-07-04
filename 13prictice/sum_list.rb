@@ -4,3 +4,4 @@ for i in 0..3
   sum += list[i]
 end
 p sum
+ 

@@ -10,3 +10,4 @@ p c.to_f.class
 
 c = Complex(0, 2) ** 2
 p c
+ 

@@ -1,5 +1,8 @@
-def hello_name(name="Ruby")
-  p "hello #{name}"
+def max(a, b)
+  if a > b
+    return a
+  end
+    return b
 end
 
-p hello_name
+p max(5, 3)

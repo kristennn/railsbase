@@ -1,4 +1,5 @@
 class HelloWorld #使用class关键李来建立一个类
+  attr_accessor :name
   def initialize(myname = "Ruby") #创建这个类的对象是的默认值
     @name = myname #初始化实例变量
   end
@@ -6,8 +7,12 @@ class HelloWorld #使用class关键李来建立一个类
   def hello #定义一个实例方法，不是类方法
     p "Hello world, I am #{@name}"
   end
+
+  def greet
+    p "Hi, I am #{self.name}"
+  end
 end
 
 bob = HelloWorld.new
 
-bob.hello
+bob.greet

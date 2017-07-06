@@ -13,7 +13,12 @@ class HelloCount
     @@count += 1
     p "Hello, world. I am #{@name}"
   end
+
+  def count(a)
+    @count = self.count
+  end
 end
+
 
 bob = HelloCount.new("Bob")
 

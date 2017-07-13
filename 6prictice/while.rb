@@ -1,5 +1,5 @@
 sum = 0
-i = 2
+i = 4
 until i >= 6
   sum += i
   i += 1

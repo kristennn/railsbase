@@ -1,4 +1,4 @@
-names = ["笑飞", "小新", "飞飞"]
+names = ["小新", "飞飞"]
 names.each { |name|
   p name
 }

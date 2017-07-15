@@ -5,4 +5,4 @@ def max(a, b)
     return b
 end
 
-p max(5, 3)
+p max(8, 3)

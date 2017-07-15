@@ -3,7 +3,7 @@ def prime?(num)
   2.upto(Math.sqrt(num)) do |i|
     if num % i == 0
       return false
-    end
+    end 
   end
   return true
 end

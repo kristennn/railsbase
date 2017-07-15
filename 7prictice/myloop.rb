@@ -10,7 +10,7 @@ myloop do
 end
 end
 
-def method(a, *b, c)
+def method(a, b, c)
   [a, b, c]
 end
 
